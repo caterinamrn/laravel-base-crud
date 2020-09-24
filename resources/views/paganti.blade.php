@@ -4,9 +4,9 @@
 
   <h1>Paganti</h1>
   <ul>
-    @foreach ($paganti as $pagante):
+    @foreach ($paganti as $pagante)
     <li> {{$pagante -> name}} {{$pagante -> lastname}}</li>
-    @endforeach;
+    @endforeach
   </ul>
 
   @endsection
